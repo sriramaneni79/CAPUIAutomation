@@ -1,0 +1,329 @@
+﻿2019-05-22T19:21:50.5182267+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-05-22T19:21:50.5267647+05:30;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-05-22T19:21:51.1925844+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-05-22T19:21:51.1925844+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+2019-05-22T19:21:51.1931206+05:30;VSTestExecutionThread;Info;Profile: CAPUIAutomation
+2019-05-22T19:21:56.3787034+05:30;Thread#13;Info;starting test run
+2019-05-22T19:21:56.4002052+05:30;Thread#13;Info;Discovering target: Chrome
+2019-05-22T19:21:56.4007059+05:30;Thread#13;Info;Discovering tests from assembly: C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+Appdomain Disposed
+2019-05-22T19:21:57.0979556+05:30;Thread#13;Info;Discovering target: Firefox
+2019-05-22T19:21:57.0984196+05:30;Thread#13;Info;Discovering tests from assembly: C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+Appdomain Disposed
+Test Suite Dump
+#0: CAPUIAutomation/CAPUIAutomation - 
+#1: Chrome - 
+#16: Firefox - 
+#2: CAPUIAutomation - 
+#17: CAPUIAutomation - 
+#3: Test targets with different browsers - 
+#10: To verify the Login page1 - 
+#18: Test targets with different browsers - 
+#25: To verify the Login page1 - 
+#4: Basepage is Calculator - Target:Chrome/TestAssembly:CAPUIAutomation/Feature:Test+targets+with+different+browsers/Scenario:Basepage+is+Calculator
+#5: Add a customer - Target:Chrome/TestAssembly:CAPUIAutomation/Feature:Test+targets+with+different+browsers/Scenario:Add+a+customer
+#11: Add a customer1 - Target:Chrome/TestAssembly:CAPUIAutomation/Feature:To+verify+the+Login+page1/Scenario:Add+a+customer1
+#12: Basepage is Calculator1 - Target:Chrome/TestAssembly:CAPUIAutomation/Feature:To+verify+the+Login+page1/Scenario:Basepage+is+Calculator1
+#13: Add a customer2 - Target:Chrome/TestAssembly:CAPUIAutomation/Feature:To+verify+the+Login+page1/Scenario:Add+a+customer2
+#19: Basepage is Calculator - Target:Firefox/TestAssembly:CAPUIAutomation/Feature:Test+targets+with+different+browsers/Scenario:Basepage+is+Calculator
+#20: Add a customer - Target:Firefox/TestAssembly:CAPUIAutomation/Feature:Test+targets+with+different+browsers/Scenario:Add+a+customer
+#26: Add a customer1 - Target:Firefox/TestAssembly:CAPUIAutomation/Feature:To+verify+the+Login+page1/Scenario:Add+a+customer1
+#27: Basepage is Calculator1 - Target:Firefox/TestAssembly:CAPUIAutomation/Feature:To+verify+the+Login+page1/Scenario:Basepage+is+Calculator1
+#28: Add a customer2 - Target:Firefox/TestAssembly:CAPUIAutomation/Feature:To+verify+the+Login+page1/Scenario:Add+a+customer2
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#1:Scheduler: get next test for thread 1
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#1:Scheduler: considering testitem #5 for thread 1
+Thread#1:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#1:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#1:TestItem#5:runsOnOneOtherThreadUnspecific:True
+Thread#1:Scheduler: using testitem #5 for thread 1
+Thread#1:Scheduler: Test #5 is scheduled for thread
+Thread#1:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for CAPUIAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Chrome)
+Thread #1: creating new test thread executor for CAPUIAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Chrome)
+error in config transfrom (configFile: C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll.config)
+<?xml version="1.0" encoding="utf-8"?>
+							<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+                              <appSettings>
+                                <add key="browser" value="Chrome" 
+                                 xdt:Locator="Match(key)" xdt:Transform="SetAttributes(value)" />
+                              </appSettings>
+							</configuration> 
+The process cannot access the file 'C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll.config.bak' because it is being used by another process.
+test thread #1 error: TechTalk.SpecRun.Framework.SpecRunException: error in config transfrom (configFile: C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll.config)
+<?xml version="1.0" encoding="utf-8"?>
+							<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+                              <appSettings>
+                                <add key="browser" value="Chrome" 
+                                 xdt:Locator="Match(key)" xdt:Transform="SetAttributes(value)" />
+                              </appSettings>
+							</configuration> 
+The process cannot access the file 'C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll.config.bak' because it is being used by another process. ---> System.IO.IOException: The process cannot access the file 'C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll.config.bak' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at TechTalk.SpecRun.Framework.DeploymentSteps.ConfigFileTransformationStep.Backup(String configFilePath, DeploymentContext deploymentContext)
+   at TechTalk.SpecRun.Framework.DeploymentSteps.ConfigFileTransformationStep.Apply(DeploymentContext deploymentContext)
+   --- End of inner exception stack trace ---
+   at TechTalk.SpecRun.Framework.DeploymentSteps.ConfigFileTransformationStep.Apply(DeploymentContext deploymentContext)
+   at TechTalk.SpecRun.Framework.DeploymentSteps.DeploymentContext.Apply(DeploymentTransformationSteps steps, ITestRunTracerBroker tracerBroker)
+   at TechTalk.SpecRun.Framework.TestThread.InitializeTestThreadExecutor(IAssemblyReference testAssembly, ExecutionModelSettings executionModelSettings, String testTarget)
+   at TechTalk.SpecRun.Framework.TestThread.GetThreadExecutorFor(TestItem testItem)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I navigated to /
+Thread#0:T:TEST
+Thread#0:T:done: LoginSteps.GivenINavigatedTo() (4.4s)
+Thread#0:B:Then browser title is Calculator
+Thread#0:T:TEST1
+Thread#0:T:done: LoginSteps.ThenBrowserTitleIsCalculator() (11.3s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #11 from normal test queue 
+Thread#0:Scheduler: considering testitem #11 for thread 0
+Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #11 for thread 0
+Thread#0:Scheduler: Test #11 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 30.5513884 seconds
+Thread#0: Test #11/0 is started on thread #0
+Thread#0:B:Given I navigate to Home page
+Thread#0:T:done: LoginSteps.GivenINavigateToHomePage() (5.2s)
+Thread#0:B:When I add a customer with below data
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Name     | Description                         | IsolationLevel | Size  |
+Thread#0:B:  | TestName | This is a test description for test | Cluster        | Large |
+Thread#0:T:error:    at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+Thread#0:T:   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()
+Thread#0:T:   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+Thread#0:T:   at OpenQA.Selenium.IWebElement.Click()
+Thread#0:T:   at CAPUIAutomationHelperUtility.WebDriverUtility.ClickOn(IWebElement element) in C:\Users\52101563\source\repos\CAPUIAutomationHelperUtility\CAPUIAutomationHelperUtility\WebDriverUtility.cs:line 61
+Thread#0:B:Then I verify customer data is added as "false"
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #12 from normal test queue 
+Thread#0:Scheduler: considering testitem #12 for thread 0
+Thread#0:TestItem#12:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#12:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#12:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #12 for thread 0
+Thread#0:Scheduler: Test #12 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #11/0 is finished on thread #0 as Failed within 31.0479629 seconds
+Thread#0: Test #12/0 is started on thread #0
+Thread#0:B:Given I navigated to /
+Thread#0:T:TEST
+Thread#0:T:done: LoginSteps.GivenINavigatedTo() (6.8s)
+Thread#0:B:Then browser title is Calculator
+Thread#0:T:TEST1
+Thread#0:T:done: LoginSteps.ThenBrowserTitleIsCalculator() (13.8s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #13 from normal test queue 
+Thread#0:Scheduler: considering testitem #13 for thread 0
+Thread#0:TestItem#13:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#13:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#13:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #13 for thread 0
+Thread#0:Scheduler: Test #13 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #12/0 is finished on thread #0 as Succeeded within 31.0084812 seconds
+Thread#0: Test #13/0 is started on thread #0
+Thread#0:B:Given I navigate to Home page
+Thread#0:T:done: LoginSteps.GivenINavigateToHomePage() (2.6s)
+Thread#0:B:When I add a customer with below data
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Name     | Description                         | IsolationLevel | Size  |
+Thread#0:B:  | TestName | This is a test description for test | Cluster        | Large |
+Thread#0:T:error:    at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+Thread#0:T:   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()
+Thread#0:T:   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+Thread#0:T:   at OpenQA.Selenium.IWebElement.Click()
+Thread#0:T:   at CAPUIAutomationHelperUtility.WebDriverUtility.ClickOn(IWebElement element) in C:\Users\52101563\source\repos\CAPUIAutomationHelperUtility\CAPUIAutomationHelperUtility\WebDriverUtility.cs:line 61
+Thread#0:B:Then I verify customer data is added as "true"
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #19 from normal test queue 
+Thread#0:Scheduler: considering testitem #19 for thread 0
+Thread#0:TestItem#19:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#19:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#19:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #19 for thread 0
+Thread#0:Scheduler: Test #19 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #13/0 is finished on thread #0 as Failed within 27.9649055 seconds
+Thread #0: creating new test thread executor for CAPUIAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Firefox)
+Thread#0: Test #19/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I navigated to /
+Thread#0:T:TEST
+Thread#0:T:done: LoginSteps.GivenINavigatedTo() (7.8s)
+Thread#0:B:Then browser title is Calculator
+Thread#0:T:TEST1
+Thread#0:T:done: LoginSteps.ThenBrowserTitleIsCalculator() (12.5s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #20 from normal test queue 
+Thread#0:Scheduler: considering testitem #20 for thread 0
+Thread#0:TestItem#20:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#20:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#20:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #20 for thread 0
+Thread#0:Scheduler: Test #20 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #19/0 is finished on thread #0 as Succeeded within 34.5851772 seconds
+Thread#0: Test #20/0 is started on thread #0
+Thread#0:B:Given I navigate to Home page
+Thread#0:T:done: LoginSteps.GivenINavigateToHomePage() (6.8s)
+Thread#0:B:When I add a customer with below data
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Name     | Description                         | IsolationLevel | Size  |
+Thread#0:B:  | TestName | This is a test description for test | Cluster        | Large |
+Thread#0:B:  | TestName | This is a test description for test | Cluster        | Large |
+Thread#0:B:  | TestName | This is a test description for test | Cluster        | Large |
+Thread#0:B:  | TestName | This is a test description for test | Cluster        | Large |
+Thread#0:T:error:    at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+Thread#0:T:   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()
+Thread#0:T:   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+Thread#0:T:   at OpenQA.Selenium.IWebElement.Click()
+Thread#0:T:   at CAPUIAutomationHelperUtility.WebDriverUtility.ClickOn(IWebElement element) in C:\Users\52101563\source\repos\CAPUIAutomationHelperUtility\CAPUIAutomationHelperUtility\WebDriverUtility.cs:line 61
+Thread#0:B:Then I verify customer data is added as "true"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I do some test
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I do some test")]
+Thread#0:T:public void ThenIDoSomeTest()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #26 from normal test queue 
+Thread#0:Scheduler: considering testitem #26 for thread 0
+Thread#0:TestItem#26:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#26:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#26:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #26 for thread 0
+Thread#0:Scheduler: Test #26 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #20/0 is finished on thread #0 as Failed within 34.8416971 seconds
+Thread#0: Test #26/0 is started on thread #0
+Thread#0:B:Given I navigate to Home page
+Thread#0:T:done: LoginSteps.GivenINavigateToHomePage() (5.7s)
+Thread#0:B:When I add a customer with below data
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Name     | Description                         | IsolationLevel | Size  |
+Thread#0:B:  | TestName | This is a test description for test | Cluster        | Large |
+Thread#0:T:error:    at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+Thread#0:T:   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()
+Thread#0:T:   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+Thread#0:T:   at OpenQA.Selenium.IWebElement.Click()
+Thread#0:T:   at CAPUIAutomationHelperUtility.WebDriverUtility.ClickOn(IWebElement element) in C:\Users\52101563\source\repos\CAPUIAutomationHelperUtility\CAPUIAutomationHelperUtility\WebDriverUtility.cs:line 61
+Thread#0:B:Then I verify customer data is added as "false"
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #27 from normal test queue 
+Thread#0:Scheduler: considering testitem #27 for thread 0
+Thread#0:TestItem#27:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#27:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#27:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #27 for thread 0
+Thread#0:Scheduler: Test #27 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #26/0 is finished on thread #0 as Failed within 32.9016119 seconds
+Thread#0: Test #27/0 is started on thread #0
+Thread#0:B:Given I navigated to /
+Thread#0:T:TEST
+Thread#0:T:done: LoginSteps.GivenINavigatedTo() (8.0s)
+Thread#0:B:Then browser title is Calculator
+Thread#0:T:TEST1
+Thread#0:T:done: LoginSteps.ThenBrowserTitleIsCalculator() (7.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #28 from normal test queue 
+Thread#0:Scheduler: considering testitem #28 for thread 0
+Thread#0:TestItem#28:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#28:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#28:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #28 for thread 0
+Thread#0:Scheduler: Test #28 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #27/0 is finished on thread #0 as Succeeded within 27.2973193 seconds
+Thread#0: Test #28/0 is started on thread #0
+Thread#0:B:Given I navigate to Home page
+Thread#0:T:done: LoginSteps.GivenINavigateToHomePage() (7.6s)
+Thread#0:B:When I add a customer with below data
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Name     | Description                         | IsolationLevel | Size  |
+Thread#0:B:  | TestName | This is a test description for test | Cluster        | Large |
+Thread#0:T:error:    at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+Thread#0:T:   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()
+Thread#0:T:   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+Thread#0:T:   at OpenQA.Selenium.IWebElement.Click()
+Thread#0:T:   at CAPUIAutomationHelperUtility.WebDriverUtility.ClickOn(IWebElement element) in C:\Users\52101563\source\repos\CAPUIAutomationHelperUtility\CAPUIAutomationHelperUtility\WebDriverUtility.cs:line 61
+Thread#0:B:Then I verify customer data is added as "true"
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #28/0 is finished on thread #0 as Failed within 35.2862057 seconds
+Appdomain Disposed
+Appdomain Disposed
+test thread error: TechTalk.SpecRun.Framework.SpecRunException: At least one test thread aborted. ---> TechTalk.SpecRun.Framework.SpecRunException: error in config transfrom (configFile: C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll.config)
+<?xml version="1.0" encoding="utf-8"?>
+							<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+                              <appSettings>
+                                <add key="browser" value="Chrome" 
+                                 xdt:Locator="Match(key)" xdt:Transform="SetAttributes(value)" />
+                              </appSettings>
+							</configuration> 
+The process cannot access the file 'C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll.config.bak' because it is being used by another process. ---> System.IO.IOException: The process cannot access the file 'C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll.config.bak' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at TechTalk.SpecRun.Framework.DeploymentSteps.ConfigFileTransformationStep.Backup(String configFilePath, DeploymentContext deploymentContext)
+   at TechTalk.SpecRun.Framework.DeploymentSteps.ConfigFileTransformationStep.Apply(DeploymentContext deploymentContext)
+   --- End of inner exception stack trace ---
+   at TechTalk.SpecRun.Framework.DeploymentSteps.ConfigFileTransformationStep.Apply(DeploymentContext deploymentContext)
+   at TechTalk.SpecRun.Framework.DeploymentSteps.DeploymentContext.Apply(DeploymentTransformationSteps steps, ITestRunTracerBroker tracerBroker)
+   at TechTalk.SpecRun.Framework.TestThread.InitializeTestThreadExecutor(IAssemblyReference testAssembly, ExecutionModelSettings executionModelSettings, String testTarget)
+   at TechTalk.SpecRun.Framework.TestThread.GetThreadExecutorFor(TestItem testItem)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager)
+   --- End of inner exception stack trace ---
+Thread#-1: Test #5/0 is started on thread #-1
+Thread#-1: Test #5/0 is finished on thread #-1 as Skipped within 0.0003098 seconds
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-05-22T19:26:43.3097471+05:30;Thread#13;Info;test run finished
+2019-05-22T19:26:43.3107497+05:30;Thread#13;Info;publishing test results
+2019-05-22T19:26:43.7864799+05:30;Thread#13;Info;test results published
+2019-05-22T19:26:43.7871207+05:30;Thread#13;Info;generating reports
+2019-05-22T19:26:43.8244602+05:30;Thread#13;Info;creating 1 report(s)
+2019-05-22T19:26:43.8244602+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-05-22T19:26:45.3670787+05:30;Thread#13;Info;reports generated
+Total: 10
+Succeeded: 4
+Ignored: 0
+Pending: 0
+Skipped: 1
+Failed: 5
+2019-05-22T19:26:45.3695842+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-05-22T19:26:45.3695842+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\52101563\source\repos\CAPUIAutomation\TestResults\CAPUIAutomation_CAPUIAutomation_2019-05-22T192151.html'
+2019-05-22T19:26:45.3760859+05:30;VSTestExecutionThread;Info;Log file: file:///C:\Users\52101563\source\repos\CAPUIAutomation\TestResults\CAPUIAutomation_CAPUIAutomation_2019-05-22T192151.log

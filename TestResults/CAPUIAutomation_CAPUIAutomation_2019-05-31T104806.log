@@ -1,0 +1,76 @@
+﻿2019-05-31T10:48:06.7917708-04:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-05-31T10:48:06.7967607-04:00;VSTestExecutionThread;Info;TestAdapter Location: C:\FrameWork\CAPUIAutomation\CAPUIAutomation\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-05-31T10:48:06.9413751-04:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-05-31T10:48:06.9413751-04:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\FrameWork\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+2019-05-31T10:48:06.9413751-04:00;VSTestExecutionThread;Info;Profile: CAPUIAutomation
+2019-05-31T10:48:16.0999193-04:00;Thread#13;Info;starting test run
+2019-05-31T10:48:16.1199001-04:00;Thread#13;Info;Discovering target: Chrome
+2019-05-31T10:48:16.1199001-04:00;Thread#13;Info;Discovering tests from assembly: C:\FrameWork\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+Appdomain Disposed
+2019-05-31T10:48:16.5161548-04:00;Thread#13;Info;Discovering target: Firefox
+2019-05-31T10:48:16.5161548-04:00;Thread#13;Info;Discovering tests from assembly: C:\FrameWork\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+Appdomain Disposed
+Test Suite Dump
+#0: CAPUIAutomation/CAPUIAutomation - 
+#1: Chrome - 
+#2: CAPUIAutomation - 
+#3: AdminPortal_38228 - 
+#4: Add role Button Functional Verification for cancel. - Target:Chrome/TestAssembly:CAPUIAutomation/Feature:AdminPortal_38228/Scenario:Add+role+Button+Functional+Verification+for+cancel.
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#1:Scheduler: get next test for thread 1
+Thread#:Scheduler: at the end of normal test queue
+Thread#1:Scheduler: enumerator for thread is at end
+Thread#1:Scheduler: No more tests for thread
+Thread #0: creating new test thread executor for CAPUIAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Chrome)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given Navigate to the CAP UI Home page.
+Thread#0:T:done: HomePage_StepDefinitions.GivenNavigateToTheCAPUIHomePage_() (2.8s)
+Thread#0:B:And Click on manage Tab in the Home Page
+Thread#0:T:done: HomePage_StepDefinitions.GivenClickOnManageTab() (0.4s)
+Thread#0:B:And Navigate to list roles page by clicking on list Roles Tab.
+Thread#0:T:done: ManageListRoles_StepDefinitions.GivenNavigateToListRolesPageByClickingOnListRolesTab_() (0.8s)
+Thread#0:B:And User Clicks on the Add Button in the list Roles page.
+Thread#0:T:done: ManageListRoles_StepDefinitions.GivenUserClicksOnTheAddButtonInTheListRolesPage_() (0.6s)
+Thread#0:B:And Enter the role name as any Random String in enter role name field
+Thread#0:T:done: ManageListRoles_StepDefinitions.GivenEnterTheRoleNameAsAnyRandomStringInenterrolenameField() (0.3s)
+Thread#0:B:When Click cancel button in the Add role Pop up.
+Thread#0:T:done: ManageListRoles_StepDefinitions.WhenClickCancelButtonInTheAddRolePopUp_() (0.1s)
+Thread#0:B:Then pop up window to add roles Should not be displayed.
+Thread#0:T:error: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Add role']/ancestor::mat-dialog-container"}
+Thread#0:T:  (Session info: chrome=74.0.3729.169)
+Thread#0:T:  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 39.6598362 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-05-31T10:48:56.5379123-04:00;Thread#13;Info;test run finished
+2019-05-31T10:48:56.5379123-04:00;Thread#13;Info;publishing test results
+2019-05-31T10:48:56.5707921-04:00;Thread#13;Info;test results published
+2019-05-31T10:48:56.5707921-04:00;Thread#13;Info;generating reports
+2019-05-31T10:48:56.5788360-04:00;Thread#13;Info;creating 1 report(s)
+2019-05-31T10:48:56.5788360-04:00;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-05-31T10:48:57.9411008-04:00;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2019-05-31T10:48:57.9460868-04:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-05-31T10:48:57.9460868-04:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\FrameWork\CAPUIAutomation\TestResults\CAPUIAutomation_CAPUIAutomation_2019-05-31T104806.html'
+2019-05-31T10:48:57.9550621-04:00;VSTestExecutionThread;Info;Log file: file:///C:\FrameWork\CAPUIAutomation\TestResults\CAPUIAutomation_CAPUIAutomation_2019-05-31T104806.log

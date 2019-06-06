@@ -1,0 +1,74 @@
+﻿2019-06-04T11:40:24.9506116-04:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-06-04T11:40:24.9566187-04:00;VSTestExecutionThread;Info;TestAdapter Location: C:\FrameWork\CAPUIAutomation\CAPUIAutomation\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-04T11:40:25.1158309-04:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-04T11:40:25.1158309-04:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\FrameWork\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+2019-06-04T11:40:25.1158309-04:00;VSTestExecutionThread;Info;Profile: CAPUIAutomation
+2019-06-04T11:40:37.2693126-04:00;Thread#13;Info;starting test run
+2019-06-04T11:40:37.2858783-04:00;Thread#13;Info;Discovering target: Chrome
+2019-06-04T11:40:37.2858783-04:00;Thread#13;Info;Discovering tests from assembly: C:\FrameWork\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+Appdomain Disposed
+2019-06-04T11:40:37.7230265-04:00;Thread#13;Info;Discovering target: Firefox
+2019-06-04T11:40:37.7230265-04:00;Thread#13;Info;Discovering tests from assembly: C:\FrameWork\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+Appdomain Disposed
+Test Suite Dump
+#0: CAPUIAutomation/CAPUIAutomation - 
+#8: Firefox - 
+#9: CAPUIAutomation - 
+#10: AdminPortal_38227 - 
+#12: Add role Button Functional Verification. - Target:Firefox/TestAssembly:CAPUIAutomation/Feature:AdminPortal_38227/Scenario:Add+role+Button+Functional+Verification.
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #12 from normal test queue 
+Thread#0:Scheduler: considering testitem #12 for thread 0
+Thread#0:TestItem#12:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#12:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#12:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #12 for thread 0
+Thread#0:Scheduler: Test #12 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#1:Scheduler: get next test for thread 1
+Thread#:Scheduler: at the end of normal test queue
+Thread#1:Scheduler: enumerator for thread is at end
+Thread#1:Scheduler: No more tests for thread
+Thread #0: creating new test thread executor for CAPUIAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Firefox)
+Thread#0: Test #12/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given Navigate to the CAP UI Home page.
+Thread#0:T:done: HomePage_StepDefinitions.GivenNavigateToTheCAPUIHomePage_() (7.4s)
+Thread#0:B:And Click on manage Tab in the Home Page
+Thread#0:T:done: HomePage_StepDefinitions.GivenClickOnManageTab() (2.3s)
+Thread#0:B:And Navigate to list roles page by clicking on list Roles Tab.
+Thread#0:T:done: ManageListRoles_StepDefinitions.GivenNavigateToListRolesPageByClickingOnListRolesTab_() (1.3s)
+Thread#0:B:And User Clicks on the Add Button in the list Roles page.
+Thread#0:T:done: ManageListRoles_StepDefinitions.GivenUserClicksOnTheAddButtonInTheListRolesPage_() (1.8s)
+Thread#0:B:And Enter the role name as any Random String in enter role name field
+Thread#0:T:done: ManageListRoles_StepDefinitions.GivenEnterTheRoleNameAsAnyRandomStringInenterrolenameField() (0.3s)
+Thread#0:B:When Click Apply button in the Add role Pop up.
+Thread#0:T:done: ManageListRoles_StepDefinitions.WhenClickApplyButtonInTheAddRolePopUp_() (0.3s)
+Thread#0:B:Then New Role Should be added in the Role Grid in the left pane.
+Thread#0:T:done: ManageListRoles_StepDefinitions.ThenNewRoleShouldBeAddedInTheRoleGridInTheLeftPane_() (30.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #12/0 is finished on thread #0 as Succeeded within 78.3281956 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-06-04T11:41:56.4137459-04:00;Thread#13;Info;test run finished
+2019-06-04T11:41:56.4142669-04:00;Thread#13;Info;publishing test results
+2019-06-04T11:41:56.4620377-04:00;Thread#13;Info;test results published
+2019-06-04T11:41:56.4620377-04:00;Thread#13;Info;generating reports
+2019-06-04T11:41:56.4711330-04:00;Thread#13;Info;creating 1 report(s)
+2019-06-04T11:41:56.4711330-04:00;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-06-04T11:41:57.7296834-04:00;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-06-04T11:41:57.7326747-04:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-06-04T11:41:57.7326747-04:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\FrameWork\CAPUIAutomation\TestResults\CAPUIAutomation_CAPUIAutomation_2019-06-04T114025.html'
+2019-06-04T11:41:57.7422922-04:00;VSTestExecutionThread;Info;Log file: file:///C:\FrameWork\CAPUIAutomation\TestResults\CAPUIAutomation_CAPUIAutomation_2019-06-04T114025.log

@@ -1,0 +1,81 @@
+﻿2019-05-21T20:43:49.9225598+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-05-21T20:43:49.9265593+05:30;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-05-21T20:43:50.5526884+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-05-21T20:43:50.5526884+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+2019-05-21T20:43:50.5526884+05:30;VSTestExecutionThread;Info;Profile: CAPUIAutomation
+2019-05-21T20:44:00.7093189+05:30;Thread#13;Info;starting test run
+2019-05-21T20:44:00.7218209+05:30;Thread#13;Info;Discovering target: Chrome
+2019-05-21T20:44:00.7218209+05:30;Thread#13;Info;Discovering tests from assembly: C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+Appdomain Disposed
+2019-05-21T20:44:01.3261150+05:30;Thread#13;Info;Discovering target: Firefox
+2019-05-21T20:44:01.3261150+05:30;Thread#13;Info;Discovering tests from assembly: C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+Appdomain Disposed
+Test Suite Dump
+#0: CAPUIAutomation/CAPUIAutomation - 
+#1: Chrome - 
+#2: CAPUIAutomation - 
+#3: Test targets with different browsers - 
+#5: Add a customer - Target:Chrome/TestAssembly:CAPUIAutomation/Feature:Test+targets+with+different+browsers/Scenario:Add+a+customer
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#1:Scheduler: get next test for thread 1
+Thread#:Scheduler: at the end of normal test queue
+Thread#1:Scheduler: enumerator for thread is at end
+Thread#1:Scheduler: No more tests for thread
+Thread #0: creating new test thread executor for CAPUIAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Chrome)
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I navigate to Home page
+Thread#0:T:done: LoginSteps.GivenINavigateToHomePage() (2.9s)
+Thread#0:B:When I add a customer with below data
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Name     | Description                         | IsolationLevel | Size  |
+Thread#0:B:  | TestName | This is a test description for test | Cluster        | Large |
+Thread#0:T:error:    at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+Thread#0:T:   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()
+Thread#0:T:   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)
+Thread#0:T:   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+Thread#0:T:   at OpenQA.Selenium.IWebElement.Click()
+Thread#0:T:   at CAPUIAutomationHelperUtility.WebDriverUtility.ClickOn(IWebElement element) in C:\Users\52101563\source\repos\CAPUIAutomationHelperUtility\CAPUIAutomationHelperUtility\WebDriverUtility.cs:line 61
+Thread#0:B:Then I verify customer data is added as "true"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I do some test
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I do some test")]
+Thread#0:T:public void ThenIDoSomeTest()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #5/0 is finished on thread #0 as Failed within 36.4117431 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-05-21T20:44:38.1908698+05:30;Thread#13;Info;test run finished
+2019-05-21T20:44:38.1918785+05:30;Thread#13;Info;publishing test results
+2019-05-21T20:44:38.4796173+05:30;Thread#13;Info;test results published
+2019-05-21T20:44:38.4796173+05:30;Thread#13;Info;generating reports
+2019-05-21T20:44:38.5011794+05:30;Thread#13;Info;creating 1 report(s)
+2019-05-21T20:44:38.5011794+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-05-21T20:44:40.2319033+05:30;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2019-05-21T20:44:40.2343614+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-05-21T20:44:40.2343614+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\52101563\source\repos\CAPUIAutomation\TestResults\CAPUIAutomation_CAPUIAutomation_2019-05-21T204350.html'
+2019-05-21T20:44:40.2393616+05:30;VSTestExecutionThread;Info;Log file: file:///C:\Users\52101563\source\repos\CAPUIAutomation\TestResults\CAPUIAutomation_CAPUIAutomation_2019-05-21T204350.log

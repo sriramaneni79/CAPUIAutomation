@@ -1,0 +1,72 @@
+﻿2019-06-02T21:13:25.8742533-04:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-06-02T21:13:25.8792397-04:00;VSTestExecutionThread;Info;TestAdapter Location: C:\FrameWork\CAPUIAutomation\CAPUIAutomation\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-06-02T21:13:26.0467933-04:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-06-02T21:13:26.0477908-04:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\FrameWork\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+2019-06-02T21:13:26.0477908-04:00;VSTestExecutionThread;Info;Profile: CAPUIAutomation
+2019-06-02T21:13:39.1406356-04:00;Thread#13;Info;starting test run
+2019-06-02T21:13:39.1476056-04:00;Thread#13;Info;Discovering target: Chrome
+2019-06-02T21:13:39.1476056-04:00;Thread#13;Info;Discovering tests from assembly: C:\FrameWork\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+Appdomain Disposed
+2019-06-02T21:13:39.5425309-04:00;Thread#13;Info;Discovering target: Firefox
+2019-06-02T21:13:39.5425309-04:00;Thread#13;Info;Discovering tests from assembly: C:\FrameWork\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+Appdomain Disposed
+Test Suite Dump
+#0: CAPUIAutomation/CAPUIAutomation - 
+#8: Firefox - 
+#9: CAPUIAutomation - 
+#10: AdminPortal_38227 - 
+#13: Add role Button Error message Validation. - Target:Firefox/TestAssembly:CAPUIAutomation/Feature:AdminPortal_38227/Scenario:Add+role+Button+Error+message+Validation.
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #13 from normal test queue 
+Thread#0:Scheduler: considering testitem #13 for thread 0
+Thread#0:TestItem#13:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#13:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#13:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #13 for thread 0
+Thread#0:Scheduler: Test #13 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#1:Scheduler: get next test for thread 1
+Thread#:Scheduler: at the end of normal test queue
+Thread#1:Scheduler: enumerator for thread is at end
+Thread#1:Scheduler: No more tests for thread
+Thread #0: creating new test thread executor for CAPUIAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Firefox)
+Thread#0: Test #13/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given Navigate to the CAP UI Home page.
+Thread#0:T:done: HomePage_StepDefinitions.GivenNavigateToTheCAPUIHomePage_() (3.9s)
+Thread#0:B:And Click on manage Tab in the Home Page
+Thread#0:T:error: Element <label> could not be scrolled into view
+Thread#0:B:And Navigate to list roles page by clicking on list Roles Tab.
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And User Clicks on the Add Button in the list Roles page.
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When User enter existing role name  in enter role name field
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Error Message should be thrown as "Duplicate Role Name Found" in the Add role Pop up.
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #13/0 is finished on thread #0 as Failed within 27.7348776 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-06-02T21:14:07.5801356-04:00;Thread#13;Info;test run finished
+2019-06-02T21:14:07.5811331-04:00;Thread#13;Info;publishing test results
+2019-06-02T21:14:07.6140466-04:00;Thread#13;Info;test results published
+2019-06-02T21:14:07.6140466-04:00;Thread#13;Info;generating reports
+2019-06-02T21:14:07.6230202-04:00;Thread#13;Info;creating 1 report(s)
+2019-06-02T21:14:07.6230202-04:00;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-06-02T21:14:08.8829590-04:00;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2019-06-02T21:14:08.8859209-04:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-06-02T21:14:08.8859209-04:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\FrameWork\CAPUIAutomation\TestResults\CAPUIAutomation_CAPUIAutomation_2019-06-02T211326.html'
+2019-06-02T21:14:08.8929029-04:00;VSTestExecutionThread;Info;Log file: file:///C:\FrameWork\CAPUIAutomation\TestResults\CAPUIAutomation_CAPUIAutomation_2019-06-02T211326.log

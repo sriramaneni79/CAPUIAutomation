@@ -1,0 +1,66 @@
+﻿2019-05-22T19:29:53.7998128+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-05-22T19:29:53.8061517+05:30;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-05-22T19:29:54.3816721+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-05-22T19:29:54.3816721+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+2019-05-22T19:29:54.3816721+05:30;VSTestExecutionThread;Info;Profile: CAPUIAutomation
+2019-05-22T19:30:00.5547097+05:30;Thread#13;Info;starting test run
+2019-05-22T19:30:00.5777101+05:30;Thread#13;Info;Discovering target: Chrome
+2019-05-22T19:30:00.5783288+05:30;Thread#13;Info;Discovering tests from assembly: C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+Appdomain Disposed
+2019-05-22T19:30:01.1731723+05:30;Thread#13;Info;Discovering target: Firefox
+2019-05-22T19:30:01.1732708+05:30;Thread#13;Info;Discovering tests from assembly: C:\Users\52101563\source\repos\CAPUIAutomation\CAPUIAutomation\bin\Debug\CAPUIAutomation.dll
+Appdomain Disposed
+Test Suite Dump
+#0: CAPUIAutomation/CAPUIAutomation - 
+#1: Chrome - 
+#2: CAPUIAutomation - 
+#3: Test targets with different browsers - 
+#4: Basepage is Calculator - Target:Chrome/TestAssembly:CAPUIAutomation/Feature:Test+targets+with+different+browsers/Scenario:Basepage+is+Calculator
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#1:Scheduler: get next test for thread 1
+Thread#:Scheduler: at the end of normal test queue
+Thread#1:Scheduler: enumerator for thread is at end
+Thread#1:Scheduler: No more tests for thread
+Thread #0: creating new test thread executor for CAPUIAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Chrome)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I navigated to /
+Thread#0:T:TEST
+Thread#0:T:done: LoginSteps.GivenINavigatedTo() (4.8s)
+Thread#0:B:Then browser title is Calculator
+Thread#0:T:TEST1
+Thread#0:T:done: LoginSteps.ThenBrowserTitleIsCalculator() (11.6s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 34.6582726 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-05-22T19:30:36.1604368+05:30;Thread#13;Info;test run finished
+2019-05-22T19:30:36.1609264+05:30;Thread#13;Info;publishing test results
+2019-05-22T19:30:36.5936670+05:30;Thread#13;Info;test results published
+2019-05-22T19:30:36.5936670+05:30;Thread#13;Info;generating reports
+2019-05-22T19:30:36.6122301+05:30;Thread#13;Info;creating 1 report(s)
+2019-05-22T19:30:36.6122301+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-05-22T19:30:37.7940703+05:30;Thread#13;Info;reports generated
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-05-22T19:30:37.7985705+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-05-22T19:30:37.7990659+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\52101563\source\repos\CAPUIAutomation\TestResults\CAPUIAutomation_CAPUIAutomation_2019-05-22T192954.html'
+2019-05-22T19:30:37.8040677+05:30;VSTestExecutionThread;Info;Log file: file:///C:\Users\52101563\source\repos\CAPUIAutomation\TestResults\CAPUIAutomation_CAPUIAutomation_2019-05-22T192954.log
